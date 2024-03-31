@@ -12,7 +12,6 @@ function App() {
     <>
     <Header />
       Homepage
-    
   <Nav />
       <Main />
       <Footer />
