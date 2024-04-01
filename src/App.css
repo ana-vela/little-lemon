@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Markazi+Text:wght@400..700&display=swap');
+
+body {
+  font-family: "Karla", sans-serif;
+}
+
 nav {
 display: flex;
 align-items: center;
@@ -9,4 +16,34 @@ nav li {
   display: inline-flex;
   margin-left: 20px;
 
+}
+
+.hero {
+  background-color: #495D56;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 200px;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 56px;
+  font-family: "Markazi Text", serif;
+  color: #F4CE14;
+}
+
+.hero-text {
+padding-right:250px;
+font-size: 16px;
+}
+
+.hero-text h2 {
+  font-family: "Markazi Text", serif;
+  font-size: 40px;
+  margin-top: -50px;
+}
+
+.hero-image img {
+  width: 400px;
 }
