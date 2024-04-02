@@ -2,10 +2,7 @@ import React from 'react'
 import heroImage from '../images/restaurantfood.jpg'
 import greekSalad from '../images/greek-salad.jpg'
 import lemonDessert from '../images/lemon-dessert.jpg'
-
 import bruschetta from '../images/bruchetta.svg'
-
-
 
 export default function Main() {
     return (
@@ -19,12 +16,13 @@ export default function Main() {
         <div className="hero-image">
         <img src={heroImage} alt="platter of food" />
 
+
         </div>
         </div>
 
 < div className="menu">
     <div className="menu-item">
-    <img src={greekSalad} alt="greek salad" width="200px" />
+    <img className="item-image" src={greekSalad} alt="greek salad"  />
     <div className="name-price">
     <div className="item-name">Greek Salad</div>
     <div className="item-price">$12.99</div>
@@ -36,7 +34,7 @@ export default function Main() {
 
 
     <div className="menu-item">
-    <img src={bruschetta} alt="bruschetta" width="200px" />
+    <img className="item-image" src={bruschetta} alt="bruschetta"/>
     <div className="name-price">
     <div className="item-name">Bruschetta</div>
     <div className="item-price">$5.99</div>
@@ -47,7 +45,7 @@ export default function Main() {
     </div>
 
     <div className="menu-item">
-    <img src={lemonDessert} alt="lemon dessert" width="200px" />
+    <img className="item-image" src={lemonDessert} alt="lemon dessert"  />
     <div className="name-price">
     <div className="item-name">Lemon Dessert</div>
     <div className="item-price">$5.00</div>
