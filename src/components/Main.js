@@ -3,6 +3,8 @@ import heroImage from '../images/restaurantfood.jpg'
 import greekSalad from '../images/greek-salad.jpg'
 import lemonDessert from '../images/lemon-dessert.jpg'
 import bruschetta from '../images/bruchetta.svg'
+import testimonialPhoto from '../images/testimonial-photo.jpg'
+
 
 export default function Main() {
     return (
@@ -27,7 +29,6 @@ export default function Main() {
     <div className="item-name">Greek Salad</div>
     <div className="item-price">$12.99</div>
     </div>
-    <div className="item-image"></div>
     <div className="item-description">The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. </div>
     </div>
 
@@ -39,7 +40,6 @@ export default function Main() {
     <div className="item-name">Bruschetta</div>
     <div className="item-price">$5.99</div>
     </div>
-    <div className="item-image"></div>
     <div className="item-description">Our Bruschetta is made from grilled bread 
     that has been smeared with garlic and seasoned with salt and olive oil.</div>
     </div>
@@ -50,11 +50,37 @@ export default function Main() {
     <div className="item-name">Lemon Dessert</div>
     <div className="item-price">$5.00</div>
     </div>
-    <div className="item-image"></div>
     <div className="item-description">This comes straight from grandma’s recipe book, 
     every last ingredient has been sourced and is as authentic as can be imagined.</div>
     </div>
 </div>
+
+<div className="testimonials-row">
+    <div className="testimonial">
+    <img className="testimonial-image" src={testimonialPhoto} alt="testimonial"  />
+    <div className="testimonial-name">Gina</div>
+    <div className="testimonial-text">hello there</div>
+    </div>
+
+    <div className="testimonial">
+    <img className="testimonial-image" src={testimonialPhoto} alt="testimonial"  />
+    <div className="testimonial-name">Jane</div>
+    <div className="testimonial-text">hello there</div>
+    </div>
+
+    <div className="testimonial">
+    <img className="testimonial-image" src={testimonialPhoto} alt="testimonial"  />
+    <div className="testimonial-name">Laura</div>
+    <div className="testimonial-text">hello there</div>
+    </div>
+
+    <div className="testimonial">
+    <img className="testimonial-image" src={testimonialPhoto} alt="testimonial"  />
+    <div className="testimonial-name">Julia</div>
+    <div className="testimonial-text">hello there</div>
+    </div>
+</div>
+
         </>
     )
 }

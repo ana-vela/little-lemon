@@ -87,3 +87,24 @@ justify-content: space-between;
   height: 50%;
   border-radius: 16px 16px 0 0;
 }
+
+.testimonials-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #495D56;
+}
+
+.testimonial {
+ font-size: 30px;
+  margin:50px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  width: 200px;
+}
+
+.testimonial-image {
+  width: 200px;
+  border-radius: 16px;
+}
