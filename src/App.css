@@ -108,3 +108,19 @@ justify-content: space-between;
   width: 200px;
   border-radius: 16px;
 }
+
+.about {
+  margin:50px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.about-text {
+  margin: 0 50px;
+}
+
+.about-image {
+  width: 500px;
+  border-radius: 16px;
+}
