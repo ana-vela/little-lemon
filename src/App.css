@@ -124,3 +124,18 @@ justify-content: space-between;
   width: 500px;
   border-radius: 16px;
 }
+
+.footer {
+  background-color: #495D56;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+ .footer-logo img {
+  width: 100px;
+}
+
+.footer-sitemap ul {
+  list-style-type: none;
+}
