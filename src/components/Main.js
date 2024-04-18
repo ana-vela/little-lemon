@@ -21,6 +21,9 @@ export default function Main() {
             </div>
         </div>
 
+        <div className="menu-row-title">
+        <h2>Menu</h2>
+        </div>
         <div className="menu">
             <div className="menu-item">
                 <img className="item-image" src={greekSalad} alt="greek salad"  />
@@ -52,7 +55,11 @@ export default function Main() {
             </div>
         </div>
 
+        <div className="testimonials-row-title">
+            <h2>Testimonials</h2>
+        </div>
         <div className="testimonials-row">
+
             <div className="testimonial">
             <img className="testimonial-image" src={testimonialPhoto} alt="testimonial"  />
             <div className="testimonial-name">Gina</div>
@@ -66,6 +73,7 @@ export default function Main() {
         </div>
 
         <div className="testimonial">
+       
             <img className="testimonial-image" src={testimonialPhoto} alt="testimonial"  />
             <div className="testimonial-name">Laura</div>
             <div className="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
