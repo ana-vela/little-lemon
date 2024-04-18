@@ -56,25 +56,25 @@ export default function Main() {
             <div className="testimonial">
             <img className="testimonial-image" src={testimonialPhoto} alt="testimonial"  />
             <div className="testimonial-name">Gina</div>
-            <div className="testimonial-text">hello there</div>
+            <div className="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
         </div>
 
         <div className="testimonial">
             <img className="testimonial-image" src={testimonialPhoto} alt="testimonial"  />
             <div className="testimonial-name">Jane</div>
-            <div className="testimonial-text">hello there</div>
+            <div className="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
         </div>
 
         <div className="testimonial">
             <img className="testimonial-image" src={testimonialPhoto} alt="testimonial"  />
             <div className="testimonial-name">Laura</div>
-            <div className="testimonial-text">hello there</div>
+            <div className="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
         </div>
 
         <div className="testimonial">
             <img className="testimonial-image" src={testimonialPhoto} alt="testimonial"  />
             <div className="testimonial-name">Julia</div>
-            <div className="testimonial-text">hello there</div>
+            <div className="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
         </div>
     </div>
 
