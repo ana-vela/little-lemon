@@ -1,5 +1,5 @@
 import React from 'react'
-import footerImage from '../images/logo-white.png'
+import footerImage from '../images/little-lemon-Logo.svg'
 
 export default function Footer() {
     return (
